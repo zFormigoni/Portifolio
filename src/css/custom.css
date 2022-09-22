@@ -1,0 +1,199 @@
+/* HEADER */
+#header {
+  width: 100%;
+  background-color: transparent;
+  transition: background ease-out 0.2s;
+}
+#header.active {
+  position: fixed;
+  background: #fff;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+  z-index: 9999;
+}
+#header .navbar-collapse {
+  width: auto;
+}
+#header .nav-link {
+  text-transform: uppercase;
+  font-weight: 500;
+  padding-left: 0;
+  padding-right: 0;
+  color: #000;
+  border-bottom: solid 4px transparent;
+}
+#header .nav-link:hover {
+  border-bottom: solid 4px var(--secondary);
+  color: var(--secondary);
+}
+
+/* SOBRE */
+.sobre {
+  text-align: justify;
+}
+.img-eu {
+  filter: brightness(80%);
+  padding: 80px;
+  border-radius: 50%;
+}
+/* HABILIDADES */
+#servicos a.destaque {
+  display: block;
+  background: var(--light);
+  border-radius: 5px;
+  text-align: center;
+  padding: 20px;
+  color: #000;
+  text-decoration: none;
+  transition: all ease-out 0.2s;
+}
+#servicos a.destaque:hover {
+  background: #fff;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.12);
+  transform: scale(1.05);
+}
+#servicos p {
+  color: var(--dark);
+}
+#servicos a.destaque .img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+}
+#servicos a.destaque .img-container img {
+  max-height: 160px;
+}
+
+/* ICONES */
+#clientes a.link-cliente {
+  padding: 0 15px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 1px var(--light);
+  height: 100px;
+  transition: ease-out all 0.2s;
+}
+#clientes a.link-cliente:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.15);
+}
+#clientes a.link-cliente img {
+  filter: grayscale(100%);
+  max-height: 70px;
+  width: 100%;
+  opacity: 0.6;
+}
+#clientes a.link-cliente:hover img {
+  filter: none;
+  opacity: 1;
+}
+
+/* PROJETOS */
+#servicos .badge {
+  font-weight: 400;
+}
+#servicos .element-item img {
+  border-radius: 5px;
+  transition: all ease-out 0.2s;
+}
+#servicos .element-item img:hover {
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.4);
+}
+.containerProjetos {
+  position: relative;
+}
+.containerProjetos:hover img {
+  filter: brightness(25%);
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.4);
+}
+.legenda {
+  visibility: hidden;
+  margin-left: 5px;
+  margin-right: 10px;
+  color: rgb(255, 255, 255);
+  text-align: justify;
+}
+.legenda h4 {
+  position: absolute;
+  margin-top: -155px;
+}
+.legenda h6 {
+  color: #b4b4b4;
+  position: absolute;
+  margin-top: -120px;
+}
+.element-item:hover .legenda {
+  visibility: visible;
+}
+
+/* RODAPÉ */
+.footer {
+  background-color: #b3b3b3;
+  padding: 30px 0;
+}
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
+}
+.footer-col h4 {
+  font-size: 18px;
+  color: #202020;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col h4::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #202020;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+.footer-col ul li a {
+  font-size: 16px;
+  color: #202020;
+  text-decoration: none;
+  font-weight: 300;
+
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a:hover {
+  color: #ffffff;
+  padding-left: 8px;
+}
+.footer-col .social-links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover {
+  color: #ffffff;
+  background-color: #24262b;
+}
+
+/* RODAPÉ responsive*/
+@media (max-width: 767px) {
+  .footer-col {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 574px) {
+  .footer-col {
+    width: 100%;
+  }
+}
