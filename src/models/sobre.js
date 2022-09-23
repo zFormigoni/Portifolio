@@ -6,10 +6,9 @@ const conteudo = [
     `Programador e desenvolvedor há 2 anos. Teve início na carreira em
   2019 quando descobriu seu gosto por códigos.`,
     `Seu primeiro projeto foi em um curso de Python quando tinha 17
-  anos, que despertou seu gosto por códigos, a partir daí começou a
-  fazer diversos cursos com projetos externos das mais diversas
-  formas, Websites, Aplicativos, Sistemas, adquirindo conhecimento
-  nas diversas linguagens de programação hoje utilizadas no mercado.`,
+  anos,a partir daí começou a fazer diversos cursos com projetos das 
+  mais diversas formas, Websites, Aplicativos, Sistemas, adquirindo
+  conhecimento nas diversas linguagens de programação utilizadas hoje no mercado.`,
     `Continua gostando de desafios e ideias inovadoras, atualmente
   divide seu tempo entre faculdade, estudos de programação e novos
   projetos.`,
