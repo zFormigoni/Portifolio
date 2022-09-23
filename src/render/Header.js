@@ -1,22 +1,32 @@
 import itens from "../models/header";
 
+function showHeader() {
+  const header = document.querySelector("#navbarMenu");
+  if (header.className == "collapse navbar-collapse") {
+    header.classList.add("show");
+  } else {
+    header.classList.remove("show");
+  }
+}
+
 function Header() {
   return (
     <div id="header" className="active">
-      <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light ">
-          <a href="#" class="navbar-brand">
+      <div className="container">
+        <nav className="navbar navbar-expand-lg navbar-light ">
+          <a href="#" className="navbar-brand">
             Formigoni
           </a>
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             data-toggle="collapse"
             data-target="#navbarMenu"
+            onClick={showHeader}
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
 
-          <div class="collapse navbar-collapse" id="navbarMenu">
+          <div className={"collapse navbar-collapse"} id="navbarMenu">
             {itens}
           </div>
         </nav>
