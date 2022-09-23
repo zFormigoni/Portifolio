@@ -27,14 +27,15 @@
 }
 
 /* SOBRE */
-.sobre {
+.sobre-div {
   text-align: justify;
+  padding: 80px;
 }
 .img-eu {
   filter: brightness(80%);
-  padding: 80px;
   border-radius: 50%;
 }
+
 /* HABILIDADES */
 #servicos a.destaque {
   display: block;
