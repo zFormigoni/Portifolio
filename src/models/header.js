@@ -1,5 +1,4 @@
 const lst_itens = [
-  ["#", "Inicio"],
   ["#link-servicos", "Habilidades"],
   ["#link-projetos", "Projetos"],
   ["#link-contato", "Contato"],
