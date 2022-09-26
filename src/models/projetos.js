@@ -17,7 +17,7 @@ const lst_itens = [
   [
     controle_financeiro,
     "Projeto de controle financeiro desenvolvido para treinar React",
-    "Controle Financeiro",
+    "Finanças",
   ],
   [
     jogo_forca,
@@ -31,7 +31,7 @@ const lst_itens = [
   ],
   [
     jogo_mario,
-    `Jogo estilo "T-Rex Running", ou famoso jogo do dinossauro do Chrome, com o tema do Super Mario `,
+    `Jogo estilo o "jogo do dinossauro" do Chrome, com o tema do Super Mario `,
     "Super Mario",
   ],
   [pokedex, "Pokedex que consome uma api de pokemons ", "Pokedex"],

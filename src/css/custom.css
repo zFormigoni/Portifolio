@@ -116,7 +116,6 @@
   margin-left: 5px;
   margin-right: 10px;
   color: rgb(255, 255, 255);
-  text-align: justify;
 }
 .legenda h4 {
   position: absolute;
@@ -126,6 +125,7 @@
   color: #b4b4b4;
   position: absolute;
   margin-top: -120px;
+  text-align: justify;
 }
 .element-item:hover .legenda {
   visibility: visible;
