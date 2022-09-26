@@ -20,7 +20,7 @@ const conteudo = [
 function create_div_img(img) {
   return (
     <div
-      className="col-md-6 align-self-center text-center order-md-1 order-2"
+      className="col-md-5 align-self-center text-center order-md-1 order-2"
       key={"keyDivImgSobre"}
     >
       <img className="img-fluid img-eu" src={img}></img>
