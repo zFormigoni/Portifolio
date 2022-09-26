@@ -1,4 +1,4 @@
-import eu from "../img/eu.png";
+import eu from "../img/eu.jpg";
 
 const conteudo = [
   ["Vitor Formigoni", "Full Stack Developer"],
